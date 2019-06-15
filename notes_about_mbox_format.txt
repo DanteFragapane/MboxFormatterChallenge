@@ -1,0 +1,5 @@
+Each email starts with "From %email% %date%" Ex. "From nobody Mon Sep 17 00:00:00 2001"
+    Dates formatted like: 3 letter day, 3 letter month, number, UTC timestamp, year
+Each email ends with "%version_number%" I assume? Ex. "1.4.0.g6f2b"
+
+If the text doesn't contain the version number, the email is *not* over, it's a forward inside the main email
