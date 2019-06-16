@@ -2,3 +2,5 @@ Each email starts with "From %email% %date%" Ex. "From nobody Mon Sep 17 00:00:0
     Dates formatted like: 3 letter day, 3 letter month, number, UTC timestamp, year
 Each email ends with "%version_number%" I assume? Ex. "1.4.0.g6f2b"
 If the line doesn't start with "from " then it is a forward, and not the start of a new email
+
+I found a very helpful document about how mbox files are formatted, located here: http://qmail.org./man/man5/mbox.html
