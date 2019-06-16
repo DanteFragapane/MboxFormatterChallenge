@@ -4,3 +4,5 @@ Each email ends with "%version_number%" I assume? Ex. "1.4.0.g6f2b"
 If the line doesn't start with "from " then it is a forward, and not the start of a new email
 
 I found a very helpful document about how mbox files are formatted, located here: http://qmail.org./man/man5/mbox.html
+
+If the file does not start with the "From " line, it is not a valid mbox file
